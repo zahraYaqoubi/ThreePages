@@ -1,0 +1,38 @@
+.container {
+    max-width: 960px;
+}
+
+html {
+    height: 100%;
+}
+
+@media (min-width: 576px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+body {
+    background-image: url("./Bg_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.site-header a {
+    color: #414f6b;
+    transition: ease-in-out color 0.15s;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+}
+
+.site-header a:hover {
+    color: rgb(29, 28, 28);
+    text-decoration: underline;
+}
+
+#logo {
+    width: 3rem;
+    height: 3rem;
+}

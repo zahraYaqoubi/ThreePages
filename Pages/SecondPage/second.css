@@ -1,0 +1,60 @@
+.container {
+    max-width: 960px;
+  }
+  
+  html,body{
+    height: 100%;
+  }
+  @media (min-width: 576px) {
+    body {
+      overflow: hidden;
+    }
+  }
+  
+  .site-header {
+    background-color: rgb(255, 255, 255);
+  }
+  .site-header a {
+    color: #414f6b;
+    transition: ease-in-out color 0.15s;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+  }
+  .site-header a:hover {
+    color: rgb(151, 145, 145);
+    text-decoration: underline;
+  }
+  #logo{
+      width: 3rem;
+      height: 3rem;
+  }
+  #logo_txt{
+    width: 7rem;
+    height: 3rem;
+}
+  #content{
+    background-image: url("./Bg_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  #img-txt{
+    /* background-image: url("./BgTxt2.png"); */
+    max-width: 80rem;
+    min-width: 40rem;
+  }
+
+  .footer{
+    background-color: #414f6b;
+    opacity: 0.8;
+  }
+  .item {
+    /* min-height: 20rem;
+    max-height: 25rem; */
+  }
+  .item-img {
+    padding: 20px 5px;
+  }
+
+  

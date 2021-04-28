@@ -1,0 +1,83 @@
+.container {
+    max-width: 960px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    body {
+        overflow: hidden;
+    }
+}
+ /* @media(max-width: 576px){
+    #tab1,#tab2{
+        background-size:cover;
+        object-fit: cover;
+    }
+}  */
+
+.site-header {
+    background-color: #414f6b;
+}
+#img-txt{
+    max-height: 150px;
+}
+.site-header a {
+    color: #b0b4be;
+    transition: ease-in-out color 0.15s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-header a:hover{
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+}
+
+#logo {
+    width: 10rem;
+    height: 3rem;
+}
+#content {
+    height: 100%;
+}
+#tab1 {
+    background-image: url("./tab1_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    height: 100%;
+}
+#tab2 {
+    background-image: url("./tab2_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    height: 100%;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    }
+.card{
+    background: rgba(255,255,255, 0.7);
+}
+#img{
+    height: 3rem;
+    width: 8rem;
+}
+
+#img-txt {
+    max-width: 80rem;
+    min-width: 20rem;
+}
+
+.footer {
+    background-color: #414f6b;
+}
+#copyright{
+    color: #63769d;
+    font-family: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300;1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="third.css" />
+    <!-- <title>sample</title> -->
+</head>
+
+<body>
+
+    <img id="img-txt" class="d-flex mx-auto py-5 col-10 bg-white" src="./BgTxt3.png" alt="02. CLIMB" />
+
+    
+    <!-- <ul class="nav border-0 nav-tabs site-header">
+        <li class="active"><a data-toggle="tab" href="#tab1">MOUNTAIN 1</a></li>
+        <li><a data-toggle="tab" href="#tabb2">MOUNTAIN 2</a></li>
+    </ul>
+
+    <div id="content" class="tab-content">
+        <div id="tab1" class="tab-pane fade in active">
+            <div class="px-5 py-3 d-flex flex-column col-5 col-lg-3 col-centered mx-auto mt-5 mr-5 card">
+                <img id="img" class="d-flex justify-content-start mb-3" src="./SCHEDULE.png" alt="SCHEDULE" />
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="">25 Nov 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="">28 Nov 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="d-flex justify-content-center">18 Dec 2016</p>
+                    <p class="d-flex justify-content-center">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="d-flex justify-content-center">7 Jan 2017</p>
+                    <p class="d-flex justify-content-center pl-2">Vestibulum vieverra</p>
+                </div>
+            </div>
+        </div>
+        <div id="tabb2" class="tab-pane fade">
+            <div class="px-5 py-3 d-flex flex-column col-5 col-lg-3 col-centered mx-auto mt-5 mr-5 card">
+                <img id="img" class="d-flex justify-content-start mb-3" src="./SCHEDULE.png" alt="SCHEDULE" />
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="">17 Nov 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="">13 Dec 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="d-flex justify-content-center">28 Dec 2016</p>
+                    <p class="d-flex justify-content-center">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="d-flex justify-content-center">9 Feb 2017</p>
+                    <p class="d-flex justify-content-center pl-2">Vestibulum vieverra</p>
+                </div>
+            </div>
+        </div> -->
+    <!-- </div>  -->
+    <nav class="site-header">
+        <div class="container">
+            <div class=" d-flex flex-column flex-md-row justify-content-start">
+                <a id="tab1-btn" class="py-2 px-4 d-md-inline-block" href="#" onclick="Tab1()">MOUNTAIN 1</a>
+                <a class="py-2 px-4 d-md-inline-block" href="#" onclick="Tab2()">MOUNTAIN 2</a>
+            </div>
+        </div>
+    </nav>
+    <div id="content" class="row">
+        <div id="tab1" class="col-12">
+            <div class="px-5 py-3 d-flex flex-column col-5 col-lg-3 col-centered mx-auto mt-5 mr-5 card">
+                <img id="img" class="d-flex justify-content-start mb-3" src="./SCHEDULE.png" alt="SCHEDULE" />
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="">25 Nov 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="">28 Nov 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="d-flex justify-content-center">18 Dec 2016</p>
+                    <p class="d-flex justify-content-center">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="d-flex justify-content-center">7 Jan 2017</p>
+                    <p class="d-flex justify-content-center pl-2">Vestibulum vieverra</p>
+                </div>
+            </div>
+        </div>
+        <div id="tab2" class="col-12">
+            <div class="px-5 py-3 d-flex flex-column col-5 col-lg-3 col-centered mx-auto mt-5 mr-5 card">
+                <img id="img" class="d-flex justify-content-start mb-3" src="./SCHEDULE.png" alt="SCHEDULE" />
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="">17 Nov 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="">13 Dec 2016</p>
+                    <p class="">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
+                    <p class="d-flex justify-content-center">28 Dec 2016</p>
+                    <p class="d-flex justify-content-center">Vestibulum vieverra</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <p class="d-flex justify-content-center">9 Feb 2017</p>
+                    <p class="d-flex justify-content-center pl-2">Vestibulum vieverra</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer p-3 fixed-bottom d-flex flex-column flex-md-row justify-content-around">
+        <div class="px-3 py-1">
+            <img id="logo" src="./ThirdPageLogo.png" alt="LOGO" />
+        </div>
+        <p id="copyright" class="px-3 py-1">COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            // document.getElementById('tab1-btn').style.backgroundColor="#b0b4be";
+            // document.getElementById('tab1-btn').style.color="#414f6b";
+            Tab1();
+        });
+        function Tab1() {
+            document.getElementById("tab1").style.display = "block";
+            document.getElementById("tab2").style.display = "none";
+        }
+        function Tab2() {
+            // document.getElementById('tab1-btn').classList.remove("tabSelected");
+            document.getElementById("tab2").style.display = "block";
+            document.getElementById("tab1").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
